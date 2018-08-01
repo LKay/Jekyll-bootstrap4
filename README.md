@@ -18,3 +18,6 @@ Dockerized Jekyll skeleton with integrated Bootstrap v4.0 Jumbotron template to 
 
 ## Template Structure
 The <code>default.html</code> layout is essentially the HTML5 Boilerplate. A layout based on the Bootstrap 4 Jumbotron template is included in Index.md which uses the default layout, and serves as the sites landing page. Additional pages (such as About.md) use the <code>page.html</code> layout to place content into the default layout without the Jumbotron structure. The <code>blog.html</code> layout lists all available posts as links (as per a typical blog), whilst each blog post uses the <code>post.html</code> layout.
+
+
+{% include gridpost.html %}
