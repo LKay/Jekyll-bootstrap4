@@ -36,7 +36,8 @@ layout: default
     </div>
 
     <hr>
-
+{% for post in site.posts %}
+   {% include gridpost.html %}
   </div> <!-- /container -->
 
 </main>
