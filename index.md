@@ -34,8 +34,7 @@ layout: default
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-
-    <hr>
+    {% include gridpost.html %}
   </div> <!-- /container -->
 
 </main>
